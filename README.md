@@ -8,12 +8,21 @@ This project focuses on classifying brain CT images as either Stroke or Normal. 
 
 Key Features:
 
-Feature Extraction: VGG19 model, pre-trained on ImageNet, is used to extract deep features from brain CT images.
-Genetic Algorithm: Features are selected optimally using a Genetic Algorithm, improving model performance by eliminating irrelevant features.
+Feature Extraction:
+
+VGG19 model, pre-trained on ImageNet, is used to extract deep features from brain CT images.
+
+Genetic Algorithm: 
+
+Features are selected optimally using a Genetic Algorithm, improving model performance by eliminating irrelevant features.
+
 Classification:
 LSTM and BiLSTM models are implemented for classifying the extracted features.
 Model output labels images as Stroke or Normal.
-Comparison with Other Models: The proposed model's performance is compared with:
+
+Comparison with Other Models: 
+
+The proposed model's performance is compared with:
 Machine Learning Models: Logistic Regression, Random Forest Classifier, Naive Bayes, SVM, and Decision Tree.
 Deep Learning Models: CNN, RNN, and ANN.
 
